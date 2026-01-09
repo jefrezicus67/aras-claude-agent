@@ -95,6 +95,13 @@ Restart Claude Desktop and try:
 | **`api_create_item`** | Create new Aras items | *"Create a new Part"* | `Part`, `Document` |
 | **`api_call_method`** | Call Aras server methods | *"Call method GetItemsInBOM"* | Method names |
 | **`api_get_list`** | Get Aras list values | *"Show Part categories"* | List IDs |
+| **`api_update_item`** | Update existing Aras items | *"Update an existing Part"* | `Part`, `Document` |
+| **`api_update_property`** | Update existing Aras item with a single property edit | *"Update an existing Part"* | `Part`, `Document` |
+| **`api_upsert_item`** | 'Merge' action for Aras items | *"Merge edits with existing Part or Create New"* | `Part`, `Document` |
+| **`api_delete_item`** | Delete action for Aras items | *"Delete existing Part"* | `Part`, `Document` |
+| **`api_delete_relationship`** | Delete relationship for Aras items | *"Delete existing relationship PartBOM"* | `Part`, `Document` |
+| **`api_clear_item_property`** | Clear a single property for existing Aras items | *"Clears existing property on Part item"* | `Part`, `Document` |
+
 
 ## 🔐 OAuth 2.0 Authentication
 
